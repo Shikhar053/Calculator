@@ -35,17 +35,17 @@ while True:
             print(num1, "*", num2, "=", Multiplication.multiply(num1, num2))
 
         elif choice == '4':
-<<<<<<< HEAD
+#<<<<<<< HEAD
             try:
                 print(num1, "/", num2, "=", Division.divide(num1, num2))
             except:
                 print("Sorry, Cant Divide by 0! Please Try Again.")
-=======
-            print(num1, "/", num2, "=", Division.divide(num1, num2))
+#=======
+            #print(num1, "/", num2, "=", Division.divide(num1, num2))
         elif choice == '5':
             print(num1, "**", num2, "=", power.power(num1, num2))
             
->>>>>>> power
+#>>>>>>> power
         
         # check if user wants another calculation
         # break the while loop if answer is no
